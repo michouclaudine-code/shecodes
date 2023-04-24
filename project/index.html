@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <div class="input-group mb-6">
+          <input
+            type="text"
+            id="input-search"
+            class="form-control"
+            placeholder="Search"
+            aria-label="Search"
+            aria-describedby="basic-addon1"
+          />
+          <span class="input-group-text" id="basic-addon1"
+            ><button><img src="images/search.png" width="10px" /></button
+          ></span>
+        </div>
+      </form>
+
+      <div class="daytime">
+        <h1>16:35 PM</h1>
+        <h2>Sunday</h2>
+      </div>
+      <div class="current">
+        <div class="row">
+          <div class="col-2"><img src="images/cloudy.png" width="90px" /></div>
+          <div class="col-2">
+            <div class="current-temp">
+              <span class="temperature">8</span>
+              <span class="temp-cf">
+                <a href="#" id="celcius"><strong>°C</strong></a> /
+                <a href="#" id="fahrenheit"><strong>°F</strong></a>
+              </span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="specifications">
+              Precipitation: 83%<br />
+              Humidity: 59%<br />
+              Wind: 31 km/h <br />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="city">
+        <h1>Alkmaar</h1>
+      </div>
+
+      <div class="forecast">
+        <div class="row">
+          <div class="col">
+            <strong>MON</strong><br />
+            <img class="weather" src="images/cloudy.png" width="40px" /><br />
+            <div class="forecast-temp"><strong>7°</strong> / 1°</div>
+            <br />
+          </div>
+          <div class="col">
+            <strong>TUE</strong><br />
+            <img class="weather" src="images/storm.png" width="40px" /><br />
+            <div class="forecast-temp"><strong>9°</strong> / 6°</div>
+            <br />
+          </div>
+          <div class="col">
+            <strong>WED</strong><br />
+            <img class="weather" src="images/sunny.png" width="40px" /><br />
+            <div class="forecast-temp"><strong>13°</strong> / 9°</div>
+            <br />
+          </div>
+          <div class="col">
+            <strong>THU</strong><br />
+            <img class="weather" src="images/rainy.png" width="40px" /><br />
+            <div class="forecast-temp"><strong>13°</strong> / 8°</div>
+            <br />
+          </div>
+          <div class="col">
+            <strong>FRI</strong><br />
+            <img class="weather" src="images/wind.png" width="40px" /><br />
+            <div class="forecast-temp"><strong>11°</strong> / 6°</div>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

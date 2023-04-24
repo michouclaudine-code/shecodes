@@ -1,0 +1,65 @@
+.container {
+  margin-top: 40px;
+}
+
+.form-control {
+  width: 10px;
+}
+
+.daytime {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.current {
+  padding-left: 35%;
+}
+
+.forecast {
+  padding-left: 30%;
+  padding-right: 25%;
+}
+
+.city {
+  text-align: center;
+  margin: 80px auto 40px;
+}
+
+.specifications {
+  font-size: 12px;
+  color: #787878;
+}
+
+.current-temp {
+  font-size: 20px;
+}
+
+.forecast-temp {
+  font-size: 12px;
+}
+
+img.weather {
+  margin: 25px auto;
+}
+
+form {
+  width: 400px;
+  margin-left: 70%;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
